@@ -30,3 +30,10 @@ VALUES
 (1001,101,1,65000.00),
 (1002,104,1,999.00),
 (1003,105,2,1200.00);
+
+INSERT INTO dbo.Payments
+(PaymentID, OrderID, PaymentDate, PaymentMethod, PaymentStatus, Amount)
+VALUES
+(1,1001,'2026-07-13','Credit Card','Paid',65000),
+(2,1002,'2026-07-14','UPI','Paid',999),
+(3,1003,'2026-07-15','Net Banking','Pending',2400);
