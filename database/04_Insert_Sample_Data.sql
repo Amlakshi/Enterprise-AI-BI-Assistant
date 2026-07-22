@@ -17,3 +17,16 @@ VALUES
 (103,'Office Chair',2,7000,80,'IKEA'),
 (104,'Men T-Shirt',3,999,150,'Nike'),
 (105,'Football',5,1200,60,'Puma');
+
+
+
+-- =====================================
+-- Insert Order Details
+-- =====================================
+
+INSERT INTO dbo.OrderDetails
+(OrderID, ProductID, Quantity, UnitPrice)
+VALUES
+(1001,101,1,65000.00),
+(1002,104,1,999.00),
+(1003,105,2,1200.00);
